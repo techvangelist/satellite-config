@@ -1,5 +1,6 @@
 ---
 - name: Run Satellite Configuration Roles
   hosts: satellite
+  become: True
   roles:
   - role: create_sat_domain
