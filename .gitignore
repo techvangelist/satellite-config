@@ -1,0 +1,4 @@
+# Untracked Files
+hosts
+ansible-navigator.log
+playbook-artifacts/

@@ -1,0 +1,7 @@
+---
+# vars file for create_sat_domain
+sat_domain_name: example.org
+sat_server_url: https://satellite.techv.lan
+sat_username: admin
+sat_password: changeme
+

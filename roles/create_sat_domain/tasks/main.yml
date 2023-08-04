@@ -1,0 +1,9 @@
+---
+# tasks file for create_sat_domain
+- name: create {{ sat_domain_name }} domain
+  redhat.satellite.domain:
+    name: {{ sat_domain_name }}
+    state: present
+    server_url: {{ sat_server_url }}
+    username: {{ sat_username }}
+    password: {{ sat_password }}
