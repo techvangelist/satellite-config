@@ -1,6 +1,6 @@
 ---
 - name: Run Satellite Configuration Roles
-  hosts: satellite
+  hosts: satellite.techv.lan
   become: True
   roles:
   - role: create_sat_domain
